@@ -1,3 +1,5 @@
+require 'pry'
+
 def get_the_values
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
