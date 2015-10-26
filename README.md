@@ -14,10 +14,10 @@ Let's learn some interesting methods we can call on hashes. Previously, you were
 You can collect all of the values in a hash with the `.values` method: 
 
 ```ruby
-family_members = {mom: "Victoria", dad: "Richard", sister: "Zoe"}
+groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
-family_members.values
-#  => ["Victoria", "Richard", "Zoe"]
+groceries.values
+#  => ["Banana", "Broccoli", "Cookie"]
 ```
 
 We can see that the `.values` method returns an array of the values of the keys in the hash. 
@@ -27,10 +27,10 @@ We can see that the `.values` method returns an array of the values of the keys 
 This method, not surprisingly, returns an array containing all of the keys in the hash that `.keys` has been called on: 
 
 ```ruby
-family_members = {mom: "Victoria", dad: "Richard", sister: "Zoe"}
+groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
-family_members.keys
-#  => [:mom, :dad, :sister]
+groceries.keys
+#  => [:fruit, :vegetable, :dessert]
 ```
 
 ### `.min`
