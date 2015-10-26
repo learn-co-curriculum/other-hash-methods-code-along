@@ -3,12 +3,14 @@ require_relative '../lib/values.rb'
 
 describe "#get_the_values" do 
 
-  groceries = {
-    dairy: ["milk", "yogurt", "cheese"],
-    vegetable: ["carrots", "broccoli", "cucumbers"],
-    meat: ["chicken", "steak", "salmon"],
-    grains: ["rice", "pasta"]
-  }
+  let :groceries do
+    {
+      dairy: ["milk", "yogurt", "cheese"],
+      vegetable: ["carrots", "broccoli", "cucumbers"],
+      meat: ["chicken", "steak", "salmon"],
+      grains: ["rice", "pasta"]
+    }
+  end
 
   it "returns all the values from the hash" do 
     result = get_the_values(groceries)
