@@ -111,3 +111,4 @@ Note: `.min` will also work for the entire hash. Play around in pry to see what 
 ## Resources: 
 
 * [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
+<a href='https://learn.co/lessons/other-hash-methods-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
