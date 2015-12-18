@@ -44,7 +44,7 @@ food_items.min
 #  => [:apples, 45] 
 ```
 
-These are only a few of the many helpful methods out there. Be there to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more. 
+These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more. 
 
 Let's practice before you move on to the next challenge: 
 
