@@ -115,4 +115,4 @@ After you have written the correct code in `lib/values`, check the return value 
 ## Resources:
 
 * [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
-<a href='https://learn.co/lessons/other-hash-methods-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
