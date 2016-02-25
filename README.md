@@ -76,25 +76,7 @@ groceries.keys
 
 After you have written the correct code in `lib/key`, check the return value of your method by running `ruby bin/keys` in the terminal.
 
-## Challenge 2: Return the min
-Use the `.min` method to collect the value that comes first alphabetically ("broccoli").
-
-###Step 1. Grab all the grocery values
-Lucky for us, we already did this is Challenge 1. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
-
-###Step 2. Get the minimum value
-Simply calling `.min` on what we did in Step 1 should do the trick:
-
-```ruby
-groceries.values.flatten.min
-#=> "broccoli"
-```
-
-After you have written the correct code in `lib/min`, check the return value of your method by running `ruby bin/min` in the terminal.
-
-Note: `.min` will also work for the entire hash. Play around in pry to see what is returned when you call `groceries.min`.
-
-## Challenge 3: Return the values
+## Challenge 2: Return the values
 Use the `.values` method to collect all of the values of the grocery type keys (`:dairy`, `:vegetables`, `:meat`, `:grains`). The method should return a *one-dimensional* (or "flat") array that *only* includes the values (groceries such as "milk" and "carrots") without their keys.
 
 **Hint:** What happens when you call `.values` on a nested hash? What is the return value? How can you *flatten* an array of arrays? Make sure to use `binding.pry` to help you solve this one.
@@ -111,6 +93,24 @@ groceries.values.flatten
 ```
 
 After you have written the correct code in `lib/values`, check the return value of your method by running `ruby bin/values` in the terminal.
+
+## Challenge 3: Return the min
+Use the `.min` method to collect the value that comes first alphabetically ("broccoli").
+
+###Step 1. Grab all the grocery values
+Lucky for us, we already did this is Challenge 1. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
+
+###Step 2. Get the minimum value
+Simply calling `.min` on what we did in Step 1 should do the trick:
+
+```ruby
+groceries.values.flatten.min
+#=> "broccoli"
+```
+
+After you have written the correct code in `lib/min`, check the return value of your method by running `ruby bin/min` in the terminal.
+
+Note: `.min` will also work for the entire hash. Play around in pry to see what is returned when you call `groceries.min`.
 
 ## Resources:
 
