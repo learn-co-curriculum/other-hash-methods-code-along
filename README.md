@@ -55,7 +55,7 @@ Let's practice before you move on to the next challenge:
 
 ## Code Along: Manipulating Nested Hashes
 
-You'll be coding your solution to this challenge in `lib/values.rb`, `lib/keys.rb`, and `lib/min.rb`. We have a nested hash of grocery item.
+You'll be coding your solution to this challenge in `lib/values.rb`, `lib/keys.rb`, and `lib/min.rb`. We have a nested hash of grocery items.
 
 ```ruby
 groceries = {
@@ -116,3 +116,5 @@ Note: `.min` will also work for the entire hash. Play around in pry to see what 
 
 * [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
