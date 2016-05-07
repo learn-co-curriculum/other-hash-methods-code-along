@@ -98,7 +98,7 @@ After you have written the correct code in `lib/values`, check the return value 
 Use the `.min` method to collect the value that comes first alphabetically ("broccoli").
 
 ###Step 1. Grab all the grocery values
-Lucky for us, we already did this is Challenge 1. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
+Lucky for us, we already did this is Challenge 2. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
 
 ###Step 2. Get the minimum value
 Simply calling `.min` on what we did in Step 1 should do the trick:
@@ -118,3 +118,5 @@ Note: `.min` will also work for the entire hash. Play around in pry to see what 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
