@@ -35,13 +35,17 @@ groceries.keys
 
 ### `.min`
 
-You can use the `.min` method on a hash to return the key/value *pair* that contains that **lowest** value. What return type can return two different things? Arrays!:
+You can use the `.min` method on a hash to return the key/value *pair* whose key is the **lowest** value. What return type can return two different things? Arrays!:
 
 ```ruby
-food_items = {apples: 45, pears: 12}
+letters = {a: 1, b: 2}
 
-food_items.min
-#  => [:apples, 45]
+letters.min
+#  => [:a, 1] 
+
+alphabetical_order = {c: 100, d: 1}
+alphabetical_order.min
+#  => [c: 100] # Because the key :c is lower than :d in alpheabetical order.
 ```
 
 These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more.
@@ -51,7 +55,7 @@ Let's practice before you move on to the next challenge:
 
 ## Code Along: Manipulating Nested Hashes
 
-You'll be coding your solution to this challenge in `lib/values.rb`, `lib/keys.rb`, and `lib/min.rb`. We have a nested hash of grocery item.
+You'll be coding your solution to this challenge in `lib/values.rb`, `lib/keys.rb`, and `lib/min.rb`. We have a nested hash of grocery items.
 
 ```ruby
 groceries = {
@@ -94,7 +98,7 @@ After you have written the correct code in `lib/values`, check the return value 
 Use the `.min` method to collect the value that comes first alphabetically ("broccoli").
 
 ###Step 1. Grab all the grocery values
-Lucky for us, we already did this in Challenge 2. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
+Lucky for us, we already did this is Challenge 2. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
 
 ###Step 2. Get the minimum value
 Simply calling `.min` on what we did in Step 1 should do the trick:
@@ -111,4 +115,8 @@ Note: `.min` will also work for the entire hash. Play around in pry to see what 
 ## Resources:
 
 * [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
-<a href='https://learn.co/lessons/other-hash-methods-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
