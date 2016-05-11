@@ -74,7 +74,7 @@ groceries.keys
 #=> [:dairy, :vegetable, :meat, :grains]
 ```
 
-After you have written the correct code in `lib/key`, check the return value of your method by running `ruby bin/keys` in the terminal.
+After you have written the correct code in `lib/keys`, check the return value of your method by running `ruby bin/keys` in the terminal.
 
 ## Challenge 2: Return the values
 Use the `.values` method to collect all of the values of the grocery type keys (`:dairy`, `:vegetables`, `:meat`, `:grains`). The method should return a *one-dimensional* (or "flat") array that *only* includes the values (groceries such as "milk" and "carrots") without their keys.
