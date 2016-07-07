@@ -48,7 +48,7 @@ alphabetical_order.min
 #  => [c: 100] # Because the key :c is lower than :d in alpheabetical order.
 ```
 
-These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more.
+These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html) to learn more.
 
 Let's practice before you move on to the next challenge:
 
@@ -114,9 +114,6 @@ Note: `#min` will also work for the entire hash. Play around in pry to see what 
 
 ## Resources:
 
-* [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
+* [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html)
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
