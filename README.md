@@ -45,7 +45,7 @@ letters.min
 
 alphabetical_order = {c: 100, d: 1}
 alphabetical_order.min
-#  => [c: 100] # Because the key :c is lower than :d in alpheabetical order.
+#  => [c: 100] # Because the key :c is lower than :d in alphabetical order.
 ```
 
 These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html) to learn more.
