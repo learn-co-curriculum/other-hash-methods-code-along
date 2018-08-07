@@ -5,8 +5,6 @@
 * Use the `#keys` method to return the keys in a hash
 * Use the `#min` method to return the minimum value of hash
 
--
-
 Let's learn some interesting methods we can call on hashes. Previously, you were asked to iterate over a hash and collect the key that pointed to the lowest value. We asked you not to use some of the higher level hash methods there. Now, we're going to learn a few tricks that can make a task like that much easier.
 
 ### `#values`
