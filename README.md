@@ -5,8 +5,6 @@
 * Use the `#keys` method to return the keys in a hash
 * Use the `#min` method to return the minimum value of hash
 
--
-
 Let's learn some interesting methods we can call on hashes. Previously, you were asked to iterate over a hash and collect the key that pointed to the lowest value. We asked you not to use some of the higher level hash methods there. Now, we're going to learn a few tricks that can make a task like that much easier.
 
 ### `#values`
@@ -45,10 +43,10 @@ letters.min
 
 alphabetical_order = {c: 100, d: 1}
 alphabetical_order.min
-#  => [c: 100] # Because the key :c is lower than :d in alpheabetical order.
+#  => [c: 100] # Because the key :c is lower than :d in alphabetical order.
 ```
 
-These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more.
+These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html) to learn more.
 
 Let's practice before you move on to the next challenge:
 
@@ -114,9 +112,6 @@ Note: `#min` will also work for the entire hash. Play around in pry to see what 
 
 ## Resources:
 
-* [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
+* [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html)
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along' title='Higher Level Hash Methods'>Higher Level Hash Methods</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/other-hash-methods-code-along'>Other Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
