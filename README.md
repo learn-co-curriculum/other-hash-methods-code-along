@@ -1,6 +1,7 @@
 # Higher Level Hash Methods
 
-##Objectives
+## Objectives
+
 * Use the `#values` method to return the values in a hash
 * Use the `#keys` method to return the keys in a hash
 * Use the `#min` method to return the minimum value of hash
@@ -43,7 +44,7 @@ letters.min
 
 alphabetical_order = {c: 100, d: 1}
 alphabetical_order.min
-#  => [c: 100] # Because the key :c is lower than :d in alphabetical order.
+#  => [c:, 100] # Because the key :c is lower than :d in alphabetical order.
 ```
 
 These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core/Hash.html) to learn more.
