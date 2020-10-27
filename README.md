@@ -101,7 +101,7 @@ Use the `#min` method to collect the value that comes first alphabetically ("bro
 
 ### Step 1. Grab all the grocery values
 
-Lucky for us, we already did this is Challenge 2. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
+Lucky for us, we already did this in Challenge 2. If we call, `groceries.values.flatten` we should get back: `["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]`
 
 ### Step 2. Get the minimum value
 
